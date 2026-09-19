@@ -27,7 +27,7 @@ jobs:
           set -e
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git remote add upstream https://github.com/Catfriend1/syncthing-android.git
+          git remote add upstream https://github.com/researchxxl/syncthing-android.git
           git fetch upstream main
           if git merge-base --is-ancestor upstream/main HEAD; then
             echo "Already up to date with upstream/main."
