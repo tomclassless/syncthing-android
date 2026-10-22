@@ -1,0 +1,3 @@
+### Other
+- chore(build-release): minimize package size by @researchxxl 
+- enhancement(custom http cert): Improved custom http certificate and key validation by @dbhavsar76 in #356
